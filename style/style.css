@@ -44,3 +44,11 @@ h3 {
 p { 
     text-align:justify;
 }
+h1 {
+  text-align: center;
+}
+/*Tune of the week*/
+.music { display: inline;
+  margin:0 auto;
+  text-align: center;
+}
