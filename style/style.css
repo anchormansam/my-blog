@@ -39,20 +39,60 @@ body {
 
 /*page text alignment*/
 h3 { text-align:center;
- }
+}
 
 p { text-align:justify;
 }
+
 h1 { text-align: center;
 }
-h2 {text-align: center;
+
+h2 { text-align: center;
+}
+
+h4 { text-align:center;
+}
+
+h5 { text-align:center;
+}
+
+h6 {text-align: center;
+    font-size: 30px; 
 }
 
 /*music.html*/
-.youtubecontainer {display: block; margin: auto;}
+.youtubecontainer {display: block; margin: 0;}
 
 
 /*schedule.html*/
 .img { display:block;
        margin:0 auto;
 }
+
+/*stylesheet for icons*/
+.fa {
+  padding: 20px;
+  font-size: 150px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa fa-linkedin {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+
