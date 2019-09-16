@@ -42,6 +42,7 @@ h3 { text-align:center;
 }
 
 p { text-align:justify;
+  font: 14px;
 }
 
 h1 { text-align: center;
@@ -61,15 +62,20 @@ h6 {text-align: center;
 }
 
 /*music.html*/
-.youtubecontainer {display: block; margin: 0;}
+
+.youttubecontainer iframe {
+  display: block; 
+  margin: 0 auto;
+}
 
 
 /*schedule.html*/
-.img { display:block;
-       margin:0 auto;
+.img { 
+       display: block;
+       margin: 0 auto;
 }
 
-/*stylesheet for icons*/
+/*icon for website link*/
 .fa {
   padding: 20px;
   font-size: 150px;
@@ -91,8 +97,22 @@ h6 {text-align: center;
 .fa fa-linkedin {
   background: #55ACEE;
   color: white;
+  border: 1px solid black;
 }
 
+.output {
+  background: #eee;
+}
 
+#resume {
+  padding: 15px;
+  border: 2px solid black;
+  background: white;
+  margin: auto;
+  width: 700px;
 
-
+}
+ #timer {
+   margin: 0;
+   display: block;
+ }
