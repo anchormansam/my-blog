@@ -42,6 +42,7 @@ h3 { text-align:center;
  }
 
 p { text-align:justify;
+  font: 14px;
 }
 h1 { text-align: center;
 }
@@ -51,23 +52,54 @@ h2 {text-align: center;
 /*music.html*/
 .youttubecontainer iframe {
   display: block; 
-  margin: auto;}
+  margin: 0 auto;
+}
 
 
 /*schedule.html*/
-.img { display:block;
-       margin:0 auto;
+.img { 
+       display: block;
+       margin: 0 auto;
 }
 
-/*iframe for website link*/
-iframe {
+/*icon for website link*/
+.fa {
+  padding: 20px;
+  font-size: 150px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa fa-linkedin {
+  background: #55ACEE;
+  color: white;
   border: 1px solid black;
-  width: 60%;
-  margin: auto;
-  display: block;
-  height: 100px unset;
 }
 
 .output {
   background: #eee;
 }
+
+#resume {
+  padding: 15px;
+  border: 2px solid black;
+  background: white;
+  margin: auto;
+  width: 700px;
+
+}
+ #timer {
+   margin: 0;
+   display: block;
+ }
