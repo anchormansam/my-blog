@@ -1,0 +1,13 @@
+html body{
+    max-height:100;
+    max-width:100;
+}
+
+.jumbotron{
+    margin: auto;
+    background-color: black;
+    /* background-image: url(/images/fixback.jpg); */
+    /* background-size:stretch; */
+    /* margin: auto; */
+    color: rgba(23, 128, 63, 0.995);
+}

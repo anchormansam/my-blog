@@ -1,51 +1,171 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Sam Wheeling Blog</title>
-      <link rel="stylesheet" href="style/style.css">
+<!doctype html>
+<html lang="en">
 
+<head>
+  <title>My Blog Home Page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  </head>
-  
-  <body>
-  
-  <div class="background"></div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style1.css">
+</head>
 
-  <div class="scrollmenu">
-    <a href="index.html">Home</a>
-    <a href="schedule.html">Schedule</a>
-    <a href="contact.html">Contact</a>
-    <a href="projects.html">Projects</a>
-    <a href="blog.html">Blog</a>
-    <a href="photo.html">Photo's</a>
-    <a href="music.html">Tune of the Day</a>
-    <a href="work.html">Resume</a>
+<body>
+  <!-- Header -->
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <div class="jumbotron jumbotron-fluid img-fluid">
+        <div class="container">
+          <h1 class="display-3">Fluid jumbo heading</h1>
+          <p class="lead">Welcome!</p>
+          <hr class="my-2">
+          <p>Welcome, to Sam Wheeling's Blog page</p>
+          <p class="lead">
+            <a class="btn btn-dark btn-lg" href="Jumbo action link" role="button">Contact Me</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Menu Bar -->
+  <div class="row">
+    <div class="col-1">
+    </div>
+    <div class="col-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+          aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+        <div class="collapse navbar-collapse" id="navTitle">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link p-4" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  p-4" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  p-4" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="#">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="#">Learn to Code</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-4" href="#">Contact</a>
+            </li>
+      </nav>
+    </div>
+    <div class="col-1">
+    </div>
+  </div>
+  <!-- About Me -->
+  <div class="row">
+    <!-- insert image of me in a card?  -->
+    <div class="col-4">
+      <div class="card" style="width: 27.5rem; margin-left: 35px ">
+        <img src="images/Profile.jpg" class="card-img-top" alt="Profile Image of Sam Wheeling">
+        <div class="card-body text-center">
+          <h5 class="card-title">About Me</h5>
+          <p class="card-text">
+            <strong>
+              “The road to success and the road to failure are almost exactly the same.”
+            </strong>
+            – Colin R. Davis
+          </p>
+        </div>
+        <ul class="list-group list-group-flush text-center">
+          <li class="list-group-item">Student Jr. Developer at Awesome Inc.</li>
+          <li class="list-group-item">Graduation Date: December 9th, 2019</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="work.html" class="card-link">Resume</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+    <!-- insert information about me -->
+    <div class="col-4">
+        <div class="card" style="width: 27.5rem; margin-left: 30px ">
+          <img src="images/awesome.jpg" class="card-img-top" alt="Awesome Inc Banner">
+          <div class="card-body text-center">
+            <h5 class="card-title">Follow My Journey</h5>
+            <p class="card-text">
+              <strong>
+                Each link will take you to where I am today! 
+              </strong>
+              
+            </p>
+          </div>
+          <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item"><a href="https://github.com/anchormansam">Github Page</a></li>
+            <li class="list-group-item"><a href="https://anchormansam.github.io/countdown-timer/">Favorite Project: Countdown Timer</a></li>
+            <li class="list-group-item"><a href="https://anchormansam.github.io/countdown-timer/">Current Project: Coming Soon</a></li>
+          </ul>
+          <div class="card-body text-center">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+   
+    <!-- insert another card of info -->
+    <div class="col-4">
+        <div class="card" style="width: 27.5rem; margin-left: 35px, mt-15px ">
+          <img src="images/worklife.jpg" class="card-img-top" alt="Profile Image of Sam Wheeling">
+          <div class="card-body text-center">
+            <h5 class="card-title">Life outside of Work</h5>
+            <p class="card-text">
+              I am an avid Disc golfer who is classified as an Amateur player in the <abbr title="Professional Disc Golf Association">PDGA</abbr>. I have played in 104 career events in over 8 states so far. I have hosted 12 events over the past few years. 
+              I am active in the local scene with running charity events and leagues. 
+            </p>
+          </div>
+          <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item"><a href="https://www.pdga.com/player/55572">PDGA Profile</a></li>
+            <li class="list-group-item">Graduation Date: December 9th, 2019</li>
+          </ul>
+          <div class="card-body text-center">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+
   </div>
 
-      <h2>
-        Welcome! Sam Wheeling's Blog!
-      </h2>
-        <p>
-          Welcome to my road to be a Developer. I've spent 13 years in retail management <br>
-          and it was time for me to focus on a new career that I could be happier with. <br>
-          I am excited to take on the challenge of the bootcamp and will use this page to show the progress that I make.<br>
-        </p>
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<div id = "links">
-    <a href="https://www.facebook.com/anchormansam" class="fa fa-facebook"></a>
-    <a href="https://www.linkedin.com/in/samuel-wheeling-01121513a/" class="fa fa-linkedin"></a>
-</div>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-<a href="https://www.facebook.com/anchormansam" class="fa fa-facebook"></a>
-<a href="https://www.linkedin.com/in/samuel-wheeling-01121513a/" class="fa fa-linkedin"></a>
 
 
-  </body>
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
 
 </html>
