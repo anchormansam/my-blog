@@ -5,9 +5,9 @@ html body{
 
 .jumbotron{
     margin: auto;
-    background-color: black;
-    /* background-image: url(/images/fixback.jpg); */
-    /* background-size:stretch; */
-    /* margin: auto; */
+    /* background-color: black; */
+    background-image: url(/images/fixback.jpg); */
+    background-size: contain;
+    margin: auto;
     color: rgba(23, 128, 63, 0.995);
 }
